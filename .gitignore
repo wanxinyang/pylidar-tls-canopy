@@ -1,0 +1,5 @@
+build/
+pylidar_tls_canopy.egg-info/
+pylidar_tls_canopy/__pycache__/
+riegl_rdb.cpython-310-x86_64-linux-gnu.so
+riegl_rxp.cpython-310-x86_64-linux-gnu.so
