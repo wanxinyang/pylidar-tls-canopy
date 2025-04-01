@@ -1,10 +1,10 @@
 # conda env create -f environment.yml
-name: pylidar-tls-canopy
+name: pylidar-lite
 channels:
   - conda-forge
 dependencies:
   - python>=3.10
-  - numpy
+  - numpy=1.22.4
   - numba
   - pandas
   - scipy
@@ -21,6 +21,6 @@ dependencies:
   - pip:
     - -e .
 variables:
-  RIVLIB_ROOT: /gpfs/data1/vclgp/software/rivlib-2_6_0-x86_64-linux-gcc9
-  RDBLIB_ROOT: /gpfs/data1/vclgp/software/rdblib-2.4.0-x86_64-linux
+  RIVLIB_ROOT: /gws/nopw/j04/nceo_generic/nceo_ucl/TLS/tools/rivlib-2_13_0-x86_64-linux-gcc11
+  RDBLIB_ROOT: /gws/nopw/j04/nceo_generic/nceo_ucl/TLS/tools/rdblib-2.5.2-x86_64-linux
   PYLIDAR_CXX_FLAGS: -std=c++11 
