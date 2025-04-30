@@ -38,7 +38,7 @@ Navigate to your desired dir, e.g.,
 
 Clone this repository:
 
-`git clone git@github.com:wanxinyang/pylidar-tls-canopy.git`
+`git clone https://github.com/wanxinyang/pylidar-tls-canopy.git`
 
 
 Navigate into the repository:
